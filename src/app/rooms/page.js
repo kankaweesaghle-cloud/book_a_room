@@ -139,7 +139,7 @@ function BookingFormContent() {
     };
 
     try {
-      const response = await fetch("https://6a7ec4233183f5fd884a77db.mockapi.io/api/bookings/rm", {
+      const response = await fetch("https://6a7ec4233183f5fd884a77db.mockapi.io/api/bookings/room", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
