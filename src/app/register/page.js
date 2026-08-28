@@ -116,7 +116,7 @@ export default function RegisterForm() {
 
   return (
     /* 🛠️ แก้ไขระยะห่างด้านบนตรงนี้ โดยใช้ pt-32 (Padding Top) แทน mt เพื่อไม่ให้ฟอร์มมุดใต้ Navbar */
-    <div className="min-h-screen bg-gray-50 font-sans pt-32 pb-12">
+    <div className="min-h-screen bg-gradient-to-br from-[#1a2b4c] to-[#0d1b2a] font-sans pt-32 pb-12">
       <div className="flex justify-center items-center px-4">
         <div className="bg-white rounded-2xl shadow-xl border border-gray-100 max-w-3xl w-full p-8 md:p-10">
           
